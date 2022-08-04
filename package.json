@@ -1,0 +1,26 @@
+{
+	"name": "sveltekitsupabaseauthapp",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"package": "svelte-kit package",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "1.0.0-next.400",  
+		"svelte": "^3.44.0",
+		"vite": "^3.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@stripe/stripe-js": "^1.34.0",
+		"@supabase/auth-helpers-svelte": "^0.4.5",
+		"@supabase/auth-helpers-sveltekit": "^0.6.8",
+		"@supabase/supabase-js": "^1.35.4",
+		"dotenv": "^16.0.1",
+		"stripe": "^9.16.0"
+	}
+}

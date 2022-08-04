@@ -4,6 +4,8 @@ SvelteKit version of the tutorial [Build a SaaS product with Next.js, Supabase a
 
 The project is locked to SvelteKit version "1.0.0-next.400". There may be breaking changes in SvelteKit.
 
+The project usese SvelteKit Supabase SSR Auth Helpers.
+
 ## Creating a project
 
 Rename env.example to env and add your project keys. 

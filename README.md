@@ -8,7 +8,7 @@ The project usese SvelteKit Supabase SSR Auth Helpers.
 
 ## Creating a project
 
-Rename env.example to env and add your project keys. 
+Rename .env.example to .env and add your project keys. 
 
 Install node modules
 ```bash

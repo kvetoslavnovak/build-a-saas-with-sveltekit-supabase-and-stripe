@@ -1,6 +1,6 @@
 <script>
-	export let errors;
-	export let values;
+	export let errors = null;
+	export let values = null;
 </script>
 
 <section>
